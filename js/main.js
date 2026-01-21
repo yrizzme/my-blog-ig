@@ -6,18 +6,6 @@ const posts = [
     excerpt: "testingggggg.",
     url: "blog/post1.html",
   },
-  {
-    title: "another post",
-    date: "15 Jan 2026",
-    excerpt: "another example post for homepage layout.",
-    url: "blog/post1.html",
-  },
-  {
-    title: "yet another post",
-    date: "10 Jan 2026",
-    excerpt: "showing how multiple posts appear in a grid.",
-    url: "blog/post1.html",
-  }
 ];
 
 const postsGrid = document.getElementById("posts-grid");
