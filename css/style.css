@@ -1,7 +1,7 @@
 /* fonts */
 body {
   font-family: inter, system-ui, sans-serif;
-  background: #ffffff;
+  background: #b9c0ff;
   color: #111;
   line-height: 1.6;
   margin: 0;
@@ -42,7 +42,7 @@ a:hover {
 .project-card, .post-card {
   border: 1px solid #ccc;
   padding: 1.5rem;
-  background: #fefefe;
+  background: #aeb9ff;
 }
 
 .project-card h3, .post-card h3 {
@@ -54,7 +54,7 @@ footer {
   padding: 2rem;
   font-size: 0.8rem;
   color: #555;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #aeb9ff;
 }
 
 .blog-header, .page-header {
@@ -69,7 +69,7 @@ footer {
 }
 
 .blog-content pre {
-  background: #f4f4f4;
+  background: #3F5698;
   padding: 1rem;
   overflow-x: auto;
   border-left: 3px solid #5a5cff;
@@ -87,4 +87,13 @@ footer {
   .hero {
     padding: 4rem 1rem 2rem;
   }
+}
+
+.all-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
 }

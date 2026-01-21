@@ -5,21 +5,18 @@ const posts = [
     date: "21 Jan 2026",
     excerpt: "testingggggg.",
     url: "blog/post1.html",
-    thumbnail: "images/placeholder1.png"
   },
   {
     title: "another post",
     date: "15 Jan 2026",
     excerpt: "another example post for homepage layout.",
     url: "blog/post1.html",
-    thumbnail: "images/placeholder2.png"
   },
   {
     title: "yet another post",
     date: "10 Jan 2026",
     excerpt: "showing how multiple posts appear in a grid.",
     url: "blog/post1.html",
-    thumbnail: "images/placeholder3.png"
   }
 ];
 
