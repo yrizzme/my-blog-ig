@@ -1,7 +1,7 @@
 /* fonts */
 body {
   font-family: inter, system-ui, sans-serif;
-  background: #b9c0ff;
+  background: #fff;
   color: #111;
   line-height: 1.6;
   margin: 0;
@@ -42,7 +42,7 @@ a:hover {
 .project-card, .post-card {
   border: 1px solid #ccc;
   padding: 1.5rem;
-  background: #aeb9ff;
+  background: #fefefe;
 }
 
 .project-card h3, .post-card h3 {
@@ -54,7 +54,7 @@ footer {
   padding: 2rem;
   font-size: 0.8rem;
   color: #555;
-  border-top: 1px solid #aeb9ff;
+  border-top: 1px solid #eee;
 }
 
 .blog-header, .page-header {
@@ -69,7 +69,7 @@ footer {
 }
 
 .blog-content pre {
-  background: #3F5698;
+  background: #f4f4f4;
   padding: 1rem;
   overflow-x: auto;
   border-left: 3px solid #5a5cff;
