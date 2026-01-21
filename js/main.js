@@ -25,7 +25,6 @@ posts.forEach(post => {
   const card = document.createElement("div");
   card.classList.add("post-card");
   card.innerHTML = `
-    <img src="${post.thumbnail}" alt="${post.title}" style="width:100%;height:auto;margin-bottom:1rem;">
     <h3>${post.title}</h3>
     <small>${post.date}</small>
     <p>${post.excerpt}</p>
