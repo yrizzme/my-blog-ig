@@ -20,3 +20,34 @@ posts.forEach(post => {
   `;
   postsGrid.appendChild(card);
 });
+
+
+
+// rec posts
+const recs = [
+  {
+    title: "obsidian",
+    date: "22 Jan 2026",
+    excerpt: "my go-to notes app. markdown-first and actually respects me.",
+    url: "recs/obsidian.html"
+  },
+];
+
+// homepage → show first 3
+const recsGrid = document.getElementById("recs-grid");
+
+if (recsGrid) {
+  recs.slice(0, 3).forEach(rec => {
+    const card = document.createElement("div");
+    card.classList.add("post-card");
+
+    card.innerHTML = `
+      <h3>${rec.title}</h3>
+      <small>${rec.date}</small>
+      <p>${rec.excerpt}</p>
+      <a href="${rec.url}">read more →</a>
+    `;
+
+    recsGrid.appendChild(card);
+  });
+}

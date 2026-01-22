@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>all posts</title>
+  <title>recs</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
   <header class="page-header">
-    <h1>all posts</h1>
-    <p>everything i’ve written, neatly listed.</p>
+    <h1>recs</h1>
+    <p>stuff i rate, and why i rate it.</p>
   </header>
 
-  <section class="all-posts-grid" id="all-posts-grid">
-    <!-- js will fill this -->
+  <section class="all-posts-grid" id="all-recs-grid">
+    <!-- js fills this -->
   </section>
 
   <p style="text-align:center; margin:4rem 0;">
@@ -23,20 +23,20 @@
 
   <script src="../js/main.js"></script>
   <script>
-    const allPostsGrid = document.getElementById("all-posts-grid");
+    const allRecsGrid = document.getElementById("all-recs-grid");
 
-    posts.forEach(post => {
+    recs.forEach(rec => {
       const card = document.createElement("div");
       card.classList.add("post-card");
 
       card.innerHTML = `
-        <h3>${post.title}</h3>
-        <small>${post.date}</small>
-        <p>${post.excerpt}</p>
-        <a href="${post.url}">read more →</a>
+        <h3>${rec.title}</h3>
+        <small>${rec.date}</small>
+        <p>${rec.excerpt}</p>
+        <a href="${rec.url}">read more →</a>
       `;
 
-      allPostsGrid.appendChild(card);
+      allRecsGrid.appendChild(card);
     });
   </script>
 
