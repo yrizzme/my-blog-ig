@@ -51,3 +51,35 @@ if (recsGrid) {
     recsGrid.appendChild(card);
   });
 }
+
+// homepage projects
+const projects = [
+  {
+    title: "student study group app",
+    date: "feb 2026",
+    description: "an ios app to help students find local study groups based on subjects and level.",
+    url: "projects/study-group-app.html",
+  },
+  {
+    title: "macro pad v1",
+    date: "jan 2026",
+    description: "custom pcb macro pad that controls the mouse cursor instead of keyboard shortcuts.",
+    url: "projects/macro-pad.html",
+  },
+];
+
+const projectsGrid = document.getElementById("projects-grid");
+
+projects.forEach(project => {
+  const card = document.createElement("div");
+  card.classList.add("project-card");
+
+  card.innerHTML = `
+    <h3>${project.title}</h3>
+    <small>${project.date}</small>
+    <p>${project.description}</p>
+    <a href="${project.url}">view project →</a>
+  `;
+
+  projectsGrid.appendChild(card);
+});
