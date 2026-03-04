@@ -1,68 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>yahya's blog</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>yahya's blog</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- big textt -->
-  <header class="hero">
-    <h1>hi, i'm yahya, and this is my blog</h1>
-    <p>a kid that likes old tech, new tech, (phone) photography and food. i share my thoughts, projects & experiments here.</p>
+  <nav class="top-nav">
+    <a href="https://blog.yahyarizmi.com">blog</a>
+    <a href="https://contact.yahyarizmi.com">contact</a>
+    <a href="https://notes.yahyarizmi.com">notes</a>
+    <a href="https://yahyarizmi.com">home</a>
+  </nav>
+  
+<header class="hero">
+  <h1>yahya<span class="accent">.</span>'s blog</h1>
+  <p> tech, food, travel. </p>
+</header>
 
-  <!-- latest posts -->
-  <section class="latest-posts">
-    <h2>latest posts</h2>
-    <div class="posts-grid" id="posts-grid">
-    </div>
-    <p style="text-align:right; margin-top:1rem;">
-      <a href="blog/index.html">view all of my posts →</a>
-    </p>
-  </section>
+<section class="latest-posts">
+  <h2>latest posts</h2>
+  <div class="posts-grid" id="posts-grid"></div>
+  <p class="view-all">
+    <a href="blog/index.html">view all of my posts →</a>
+  </p>
+</section>
 
+<section class="latest-recs">
+  <h2>latest recs</h2>
+  <div class="posts-grid" id="recs-grid"></div>
+  <p class="view-all">
+    <a href="recs/index.html">view all of my recs →</a>
+  </p>
+</section>
 
-    <!-- latest recs -->
-    <section class="latest-recs">
-      <h2>latest recs</h2>
-      <div class="posts-grid" id="recs-grid"></div>
-
-      <p style="text-align:right; margin-top:1rem;">
-        <a href="recs/index.html">view all of my recs →</a>
-      </p>
-    </section>
-
-  <!-- projects -->
-    <section>
-      <h2>latest projects</h2>
-      <div id="projects-grid"></div>
-      <a href="projects/index.html">view all of my projects →</a>
-    </section>
-
-
-  <!-- about -->
-  <section class="about">
-  <p><b>c'est moi</b></p>
-  <p>i’m a 15 year old tech enthusiast, aspiring medic, and foodie. i love experimenting with hardware, weird (foss) software, building tiny (retro) computing setups, cooking, and sharing what i learn.</p>
-  </section>
+<section class="projects">
+  <h2>latest projects</h2>
+  <div class="projects-grid" id="projects-grid"></div>
+  <p class="view-all">
+    <a href="projects/index.html">view all of my projects →</a>
+  </p>
+</section>
 
 
 
-  <!-- footer -->
-  <footer>
-    <small>
-      <a href="https://yahyarizmi.com">main site</a> •
-      <a
+  <div class="footer">
+    yahyarizmi · 🇱🇰🇬🇧 · 2026
+  </div>
+  <div class="sub-footer">
+    📍in london rn
+  </div>
 
-
-      <a href="https://github.com/yrizzme">github</a> •
-      <a href="mailto:yahya@yahyarizmi.com">contact</a> •
-      <a href="#">rss</a>
-    </small>
-  </footer>
-
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
