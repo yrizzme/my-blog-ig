@@ -1,9 +1,9 @@
 // homepage posts
 const posts = [
   {
-    title: "first blog post on the new site",
-    date: "21 Jan 2026",
-    excerpt: "testingggggg.",
+    title: "helooooo",
+    date: "5 march 2026",
+    excerpt: "just a lil test.",
     url: "blog/post1.html",
   },
 ];
@@ -27,8 +27,8 @@ posts.forEach(post => {
 const recs = [
   {
     title: "obsidian",
-    date: "22 Jan 2026",
-    excerpt: "my go-to notes app. markdown-first and actually respects me.",
+    date: "5 march 2026",
+    excerpt: "my go-to notes app. markdown-first. i just love it.",
     url: "recs/obsidian.html"
   },
 ];
@@ -55,16 +55,10 @@ if (recsGrid) {
 // homepage projects
 const projects = [
   {
-    title: "student study group app",
-    date: "feb 2026",
-    description: "an ios app to help students find local study groups based on subjects and level.",
-    url: "projects/study-group-app.html",
-  },
-  {
-    title: "macro pad v1",
-    date: "jan 2026",
-    description: "custom pcb macro pad that controls the mouse cursor instead of keyboard shortcuts.",
-    url: "projects/macro-pad.html",
+    title: "my website(s)",
+    date: "ongoing",
+    description: "(...).yahyarizmi.com",
+    url: "projects/yahyarizmi.html",
   },
 ];
 
